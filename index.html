@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.7.1/dist/instantsearch.min.css">
+    <title>Brutus</title>
+</head>
+<body>
+<!-- HOME PAGE -->
+<div id="search-page" class="search-page-content">
+    <div class="search-page-overlay">
+        <div class="search-container">
+            <br><br>
+            <h class="search-page-heading">B R U T U S</h>
+            <br><br>
+            <div id="searchbox" class="search-page-text" onkeydown="wipeCurrentHits(event)" onkeyup="enterEvent(event)"></div>
+            <br>
+            <div id="hits" class="search-page-text"></div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.8.0/dist/instantsearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+<script src="submit.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
