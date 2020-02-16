@@ -9,21 +9,25 @@
 </head>
 <body>
 <!-- HOME PAGE -->
-<div id="search-page" class="search-page-content">
-    <div class="search-page-overlay">
-        <div class="search-container">
-            <br><br>
-            <h class="search-page-heading">B R U T U S</h>
-            <br><br>
-            <div id="searchbox" class="search-page-text" onkeydown="wipeCurrentHits(event)" onkeyup="enterEvent(event)"></div>
-            <br>
-            <div id="hits" class="search-page-text"></div>
+<div id="home-page" class="home-page-content">
+    <div class="home-page-overlay">
+        <br><br>
+        <h class="home-page-heading">B R U T U S</h>
+        <br><br><br><br>
+        <!-- TODO: add HTML for drop down menu for classes -->
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">List of Classes</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">LINK 1</a>
+              <a href="#">LINK 2</a>
+              <a href="#">LINK 3</a>
+            </div>
         </div>
+        <br><br>
+        <!-- TODO: add HTML for drop down menu for sorting -->
+        <br><br>
     </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.8.0/dist/instantsearch.min.js"></script>
-<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
-<script src="submit.js"></script>
-<script src="app.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
