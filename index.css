@@ -1,7 +1,7 @@
 @import url("https://use.typekit.net/vwk0sna.css");
 @import url("https://use.typekit.net/utf6pss.css");
 
-html, body { 
+html, body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -24,13 +24,13 @@ html, body {
   margin-right: auto;
 }
 
-.home-page-overlay { 
+.home-page-overlay {
   width: 100%;
   height: 100%;
   opacity: 0.8;
 }
 
-.home-page-heading { 
+.home-page-heading {
   font-weight: 600;
   font-size: 750%;
   letter-spacing: 1px;
@@ -92,3 +92,20 @@ html, body {
 
 /* ----- SEARCH BUTTON -----  */
 /* TODO: add CSS for the "GO" button --> should include font, spacing, colors, etc. */
+
+.gobtn{
+  font-family: adelle-sans, sans-serif;
+  font-size: 18px;
+  border: 3px outset rgba(255, 255, 255, 0.9);
+  border-style: outset;
+  margin-left: 30px;
+  margin-right: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.gobtn:hover, .gobtn:focus {
+  background-color: rgba(255, 255, 255, 0.8);
+}
