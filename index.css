@@ -47,7 +47,7 @@ html, body {
   font-size: 16px;
   border: none;
   cursor: pointer;
-  width: 230px;
+  width: 350px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -69,6 +69,7 @@ html, body {
   z-index: 1;
   margin-left: 20px;
   margin-right: 20px;
+  background-color: #756496;
 }
 
 .dropdown-content a {
@@ -98,14 +99,68 @@ html, body {
   font-size: 18px;
   border: 3px outset rgba(255, 255, 255, 0.9);
   border-style: outset;
-  margin-left: 30px;
+  margin-left: 10px;
   margin-right: 10px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 6px;
   padding-bottom: 6px;
+  z-index: -1;
 }
 
 .gobtn:hover, .gobtn:focus {
   background-color: rgba(255, 255, 255, 0.8);
+}
+
+.search {
+  position: relative;
+  display: inline-block;
+}
+
+.sb{
+  background-color:white;
+  color: black;
+  padding: 16px;
+  font-family: adelle-sans, sans-serif;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 350px;
+  margin-left: 20px;
+
+}
+
+.sb:hover, .sb:focus {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.dropbtn1 {
+  background-color:white;
+  color: black;
+  padding: 16px;
+  font-family: adelle-sans, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  width: 230px;
+  margin-left: -3px;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-left: solid black 2px;
+
+}
+
+.dropbtn1:hover, .dropbtn1:focus {
+  background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+#sorter{
+  width: 230px !important;
+  font-size: 18px;
+  text-align: left;
+  border: 3px outset rgba(255, 255, 255, 0.9);
+  border-style: outset;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }

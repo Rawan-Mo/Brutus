@@ -1,7 +1,7 @@
 function dropDownClasses() {
     document.getElementById("dropdown-classes").classList.toggle("show");
   }
-  
+
   // Close the dropdown menu if the user clicks outside of it
   window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
@@ -15,11 +15,11 @@ function dropDownClasses() {
       }
     }
   }
-  
+
 function dropDownSort() {
     document.getElementById("dropdown-sort").classList.toggle("show");
   }
-  
+
   // Close the dropdown menu if the user clicks outside of it
   window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
